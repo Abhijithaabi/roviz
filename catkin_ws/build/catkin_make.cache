@@ -1,0 +1,2 @@
+chefbot_description:chefbot_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/abi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/abi/catkin_ws/install -G Unix Makefiles

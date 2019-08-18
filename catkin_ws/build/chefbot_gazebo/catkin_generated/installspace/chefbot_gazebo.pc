@@ -1,0 +1,8 @@
+prefix=/home/abi/catkin_ws/install
+
+Name: chefbot_gazebo
+Description: Description of chefbot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/abi/catkin_ws/install/lib 
+Requires: 
