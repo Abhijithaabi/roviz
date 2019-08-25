@@ -1,0 +1,3 @@
+<launch>
+  <include file="$(find chefbot_gazebo)/launch/includes/move_base.launch.xml"/>
+</launch>
