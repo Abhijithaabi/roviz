@@ -1,2 +1,3 @@
 # roviz
-Final year project of 2016-20 ECE batch of GECSKP
+Final year project of 2016-20 ECE batch of GECSKP. 
+      This project aims to explore the Simultaneous Localization  And  Mapping(SLAM) problem in the context of implementation using Robot Operating System(ROS) framework. The implementation of an  inexpensive differential drive robot for SLAM is detailed and verified by mapping experiments conducted  within domestic environment. Here we are implementing ROVIZ  in the environment of a restaurant to serve food by mapping the location  using SLAM. We can expand this application into the environment of  a supermarket by minimal number of changes in the system. And this sums up an advanced  level of SLAM using ROS. Overall this project leads to a simple and cost effective way including a code base and guidelines to create robots for 2D mapping using  modern technologies such as ROS.   
