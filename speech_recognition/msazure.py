@@ -12,6 +12,17 @@ def chat():
 		try:
 			result = speech_recognizer.recognize_once()
 			text=format(result.text)
+			if text=='Bye.':
+				welcometext = 'okay bye have a nice meal'
+				language = 'en'
+				myobj = gTTS(text=welcometext, lang=language, slow=False) 
+	 
+				myobj.save("welcome.mp3") 
+
+				os.system("mpg321 welcome.mp3") 
+				time.sleep(1)
+				sys.exit()
+
 			mytext = mybot.respond(text)
 			language='en'
 			myobj = gTTS(text=mytext, lang=language, slow=False) 
