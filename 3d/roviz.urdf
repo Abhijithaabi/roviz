@@ -1,0 +1,22 @@
+<robot name="roviz">
+	<link name="body">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0">
+			<geometry>
+				<mesh filename="‪G:\3d\Rovizaesthetic.dae">
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0">
+			<geometry>
+				<mesh filename="‪G:\3d\Rovizaesthetic.dae">
+			</geometry>
+		</collision>
+		<collison_checking>
+			<origin xyz="0 0 0" rpy="0 0 0">
+			<geometry>
+				<mesh filename="‪G:\3d\Rovizaesthetic.dae">
+			</geometry>
+		</collision_checking>
+	</link>
+</robot>
